@@ -3,7 +3,7 @@ global_config:
   environment_name: cp4d
   cloud_platform: ibm-cloud
   ibm_cloud_region: eu-gb
-  env_id: jlp-roks
+  env_id: jlp
   confirm_destroy: False
 
 provider:
