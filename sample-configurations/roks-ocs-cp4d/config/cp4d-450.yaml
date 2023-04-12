@@ -3,7 +3,7 @@ cp4d:
 
 - project: cpd
   openshift_cluster_name: "{{ env_id }}"
-  cp4d_version: 4.5.0
+  cp4d_version: 4.6.3
   olm_utils: False
   use_case_files: True
   accept_licenses: True
