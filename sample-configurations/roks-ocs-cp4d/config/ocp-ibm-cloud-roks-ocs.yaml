@@ -3,7 +3,7 @@ global_config:
   environment_name: cp4d
   cloud_platform: ibm-cloud
   ibm_cloud_region: eu-gb
-  env_id: pluto-01
+  env_id: jlp
   confirm_destroy: False
 
 provider:
@@ -54,7 +54,7 @@ openshift:
 - name: "{{ env_id }}"
   ocp_version: 4.8
   compute_flavour: bx2.16x64
-  compute_nodes: 8
+  compute_nodes: 9
   infrastructure:
     type: vpc
     vpc_name: "{{ env_id }}"
