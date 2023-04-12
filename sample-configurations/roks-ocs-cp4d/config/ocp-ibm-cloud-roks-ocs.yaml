@@ -68,5 +68,5 @@ openshift:
   - storage_name: ocs-storage
     storage_type: ocs
     ocs_storage_label: ocs
-    ocs_storage_size_gb: 1000
+    ocs_storage_size_gb: 500
 
