@@ -52,7 +52,7 @@ cos:
 
 openshift:
 - name: "{{ env_id }}"
-  ocp_version: 4.8
+  ocp_version: 4.11.31
   compute_flavour: bx2.16x64
   compute_nodes: 9
   infrastructure:
@@ -69,4 +69,4 @@ openshift:
     storage_type: ocs
     ocs_storage_label: ocs
     ocs_storage_size_gb: 1000
-    ocs_version: 4.10.0
+    ocs_version: 4.11.0
