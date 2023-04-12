@@ -1,8 +1,8 @@
 ---
 global_config:
-  environment_name: sample
+  environment_name: cp4d
   cloud_platform: ibm-cloud
-  ibm_cloud_region: eu-de
+  ibm_cloud_region: eu-gb
   env_id: pluto-01
   confirm_destroy: False
 
@@ -68,5 +68,5 @@ openshift:
   - storage_name: ocs-storage
     storage_type: ocs
     ocs_storage_label: ocs
-    ocs_storage_size_gb: 500
+    ocs_storage_size_gb: 1000
     ocs_version: 4.10.0
