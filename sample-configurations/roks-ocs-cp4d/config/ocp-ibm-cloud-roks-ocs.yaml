@@ -3,7 +3,7 @@ global_config:
   environment_name: cp4d
   cloud_platform: ibm-cloud
   ibm_cloud_region: eu-gb
-  env_id: jlp-poc
+  env_id: jlp
   confirm_destroy: False
 
 provider:
@@ -52,7 +52,7 @@ cos:
 
 openshift:
 - name: "{{ env_id }}"
-  ocp_version: 4.12
+  ocp_version: 4.11
   compute_flavour: bx2.16x64
   compute_nodes: 9
   infrastructure:
